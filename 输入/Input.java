@@ -12,5 +12,11 @@ class Input {
 
         //关闭scanner对象
         input.close();
+
+        String band = "xxxx";
+        if(band == "xxxx"){
+            System.out.println(band);
+            System.out.println("end");
+        }
     }
 }
