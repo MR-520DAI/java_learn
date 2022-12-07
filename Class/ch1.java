@@ -25,6 +25,7 @@ public class ch1 {
         //创建对象l1和l2
         lamp l1 = new lamp();
         lamp l2 = new lamp();
+        l1.isOn = false;
 
         //调用方法turnOn()和shutdown ()
         l1.turnOn();
